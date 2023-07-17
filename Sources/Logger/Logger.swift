@@ -98,4 +98,3 @@ public struct Logger {
         return components.isEmpty ? "" : (components.last?.replacingOccurrences(of: ".swift", with: " >>> ") ?? "")
     }
 }
-
