@@ -1,5 +1,11 @@
 # Logger
 
+Swift Simple Console Logger
+
+## Overview
+
+<img src="https://github.com/InstaRobot/Logger/blob/master/Assets/demo.png" width="500" height="119" />
+
 ## Installation
 
 ### Swift Package Manager
@@ -24,5 +30,10 @@ dependencies: [
 ```swift
 
 import Logger
+
+Logger.info("debug")		// 🔵
+Logger.error("debug")		// 🔴
+Logger.warning("debug")	    // 🟡
+Logger.debug("debug")		// 🟢
 
 ```
